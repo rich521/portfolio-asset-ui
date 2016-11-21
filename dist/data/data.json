@@ -1,4 +1,4 @@
-[{
+{
     "currentPrice": {
         "Google": 172,
         "Facebook": 143,
@@ -512,4 +512,4 @@
         { "id": "14-149-0765", "asset_name": "Five Bridge", "asset_type": "Real Estate", "asset_price": 47, "purchased_volume": 12000, "purchased_currency": "USD", "purchased_date": "2015-07-15" },
         { "id": "32-287-0692", "asset_name": "Tesla", "asset_type": "Equity", "asset_price": 88, "purchased_volume": 10000, "purchased_currency": "USD", "purchased_date": "2011-08-01" }
     ],
-}]
+}
