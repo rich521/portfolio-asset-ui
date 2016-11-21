@@ -1,5 +1,6 @@
-[{
-    "currentPrice": {
+[
+    [{
+        "currentPrice": {
             "Google": 172,
             "Facebook": 143,
             "Yahoo": 99,
@@ -11,7 +12,7 @@
             "Gold": 155,
             "Loan": 30,
         }
-    },
+    }],
     [{ "id": "40-605-6503", "asset_name": "Water Works", "asset_type": "Bonds", "asset_price": 142, "purchased_volume": 44000, "purchased_currency": "USD", "purchased_date": "2013-11-18" },
         { "id": "92-436-5721", "asset_name": "Google", "asset_type": "Equity", "asset_price": 9, "purchased_volume": 15000, "purchased_currency": "USD", "purchased_date": "2014-11-12" },
         { "id": "99-859-7719", "asset_name": "Facebook", "asset_type": "Equity", "asset_price": 149, "purchased_volume": 35000, "purchased_currency": "USD", "purchased_date": "2012-07-31" },
