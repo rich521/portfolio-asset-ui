@@ -1,17 +1,18 @@
 [{
     "currentPrice": {
-        "Google": 172,
-        "Facebook": 143,
-        "Yahoo": 99,
-        "Tesla": 162,
-        "Water Works": 88,
-        "Gas Powers": 231,
-        "Trudeo": 111,
-        "Five Bridge": 166,
-        "Gold": 155,
-        "Loan": 30,
+            "Google": 172,
+            "Facebook": 143,
+            "Yahoo": 99,
+            "Tesla": 162,
+            "Water Works": 88,
+            "Gas Powers": 231,
+            "Trudeo": 111,
+            "Five Bridge": 166,
+            "Gold": 155,
+            "Loan": 30,
+        }
     },
-    "userAssets": [{ "id": "40-605-6503", "asset_name": "Water Works", "asset_type": "Bonds", "asset_price": 142, "purchased_volume": 44000, "purchased_currency": "USD", "purchased_date": "2013-11-18" },
+    [{ "id": "40-605-6503", "asset_name": "Water Works", "asset_type": "Bonds", "asset_price": 142, "purchased_volume": 44000, "purchased_currency": "USD", "purchased_date": "2013-11-18" },
         { "id": "92-436-5721", "asset_name": "Google", "asset_type": "Equity", "asset_price": 9, "purchased_volume": 15000, "purchased_currency": "USD", "purchased_date": "2014-11-12" },
         { "id": "99-859-7719", "asset_name": "Facebook", "asset_type": "Equity", "asset_price": 149, "purchased_volume": 35000, "purchased_currency": "USD", "purchased_date": "2012-07-31" },
         { "id": "04-364-1171", "asset_name": "Facebook", "asset_type": "Equity", "asset_price": 96, "purchased_volume": 41000, "purchased_currency": "USD", "purchased_date": "2009-04-19" },
@@ -511,5 +512,5 @@
         { "id": "15-458-4461", "asset_name": "Google", "asset_type": "Equity", "asset_price": 89, "purchased_volume": 17000, "purchased_currency": "USD", "purchased_date": "2014-04-22" },
         { "id": "14-149-0765", "asset_name": "Five Bridge", "asset_type": "Real Estate", "asset_price": 47, "purchased_volume": 12000, "purchased_currency": "USD", "purchased_date": "2015-07-15" },
         { "id": "32-287-0692", "asset_name": "Tesla", "asset_type": "Equity", "asset_price": 88, "purchased_volume": 10000, "purchased_currency": "USD", "purchased_date": "2011-08-01" }
-    ],
-}]
+    ]
+]
