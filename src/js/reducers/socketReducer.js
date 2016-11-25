@@ -1,5 +1,11 @@
 export default function reducer(state = {
-    assets: null,
+    assets: {
+        "Portfolio": {
+            "assets": {
+                "Default": "",
+            }
+        }
+    },
     fetchedAssets: false,
     currency: null,
     fetchedCurrency: false,
@@ -18,6 +24,7 @@ export default function reducer(state = {
                 return {
                     ...state,
                     fetchedAssets: true,
+                    // assets: action.payload,
                     assets: action.payload,
                 }
             }

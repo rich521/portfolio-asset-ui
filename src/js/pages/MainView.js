@@ -1,36 +1,19 @@
 import React from "react";
 import { connect } from "react-redux";
-import * as socketActions from "../actions/socketActions";
 
 // Main data store for handling and processing
 @connect((store) => {
     return {
         currency: store.socket.currency,
-        fetchedCurrency: store.socket.fetchedCurrency,
         assets: store.socket.assets,
-        fetchedAssets: store.socket.fetchedAssets,
     };
 })
 
 export default class MainView extends React.Component {
-
-    componentDidMount() {
-        const { dispatch, fetchedAssets, fetchedCurrency } = this.props;
-        if (fetchedAssets && fetchedCurrency) return;
-                        console.log("dispatch works");
-
-        dispatch(socketActions.fetchAssets());
-        dispatch(socketActions.fetchCurrency());
-        console.log("dispatch works");
-    }
-
     render() {
         const { currency } = this.props;
-        console.log(currency);
+        if (!currency) return <h1>Loading data</h1>;
 
-        if (!currency) {
-            return <h1>hello</h1>;
-        }
         // Render the main dashboard after data has been loaded
         return (
             <main class="page-wrapper">
@@ -80,7 +63,7 @@ export default class MainView extends React.Component {
 							    <thead>
 							      <tr>
 							        <th>Currency</th>
-							        <th>Exchange Rate ($1 {currency.base})</th>
+							        <th>Buy/Sell (Base rate: {currency.base})</th>
 							      </tr>
 							    </thead>
 							    <tbody>
