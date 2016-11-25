@@ -1,0 +1,38 @@
+[{
+    "currentPrice": {
+        "Google": 201,
+        "Facebook": 173,
+        "Yahoo": 152,
+        "Tesla": 162,
+        "Water Works": 155,
+        "Gas Powers": 231,
+        "Trudeo": 151,
+        "Five Bridge": 152,
+        "Gold": 155,
+        "Loan": 140,
+        "GovernBond": 205,
+        "AssetHoldings": 200,
+        "FinTech": 211,
+        "MyCompanyX": 16,
+        "MyCompanyY": 42,
+        "MyCompanyZ": 85
+    },
+    "lastWeekPrice": {
+        "Google": 199,
+        "Facebook": 174,
+        "Yahoo": 143,
+        "Tesla": 160,
+        "Water Works": 137,
+        "Gas Powers": 241,
+        "Trudeo": 150,
+        "Five Bridge": 152,
+        "Gold": 157,
+        "Loan": 141,
+        "GovernBond": 205,
+        "AssetHoldings": 182,
+        "FinTech": 203,
+        "MyCompanyX": 13,
+        "MyCompanyY": 41,
+        "MyCompanyZ": 82
+    }
+}]
